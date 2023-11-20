@@ -1,8 +1,24 @@
-ocaml-result (1.5-deepin1) unstable; urgency=medium
+ocaml-result (1.5-4) unstable; urgency=medium
 
-  * Rebuild
+  [ Stéphane Glondu ]
+  * Use ocaml_dune DH buildsystem
 
- -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:01:47 +0800
+  [ Debian Janitor ]
+  * Update watch file format version to 4
+  * Update standards version to 4.6.2, no changes needed
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 17 Aug 2023 07:11:58 +0200
+
+ocaml-result (1.5-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Stéphane Glondu ]
+  * Fix build with recent dune
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 15 Jul 2023 06:49:40 +0200
 
 ocaml-result (1.5-1) unstable; urgency=medium
 
